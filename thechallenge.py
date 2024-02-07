@@ -1,11 +1,13 @@
+bill=10
 
 service= (input("how was your service?"))
 if service == "bad":
-    print("you tipped 0%") 
+    print(int(bill)*1)
 elif service == "okay":
-    print("you tipped 15%")
+    print(int(bill)*1.15)
 elif service == "good":
-    print("you tipped 20%")
+    print(int(bill)*1.20)
 elif service == "great":
-    print("you tipped 25%")
-
+    print(int(bill)*1.25)
+else:
+    print("what does that mean??????")
