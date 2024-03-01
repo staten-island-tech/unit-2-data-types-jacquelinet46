@@ -1,14 +1,11 @@
-def gcfcalc(x,y):
-    while y!=0:
-        z=y
-        y=int(x)%int(y)
-        x=z
-    return x
-
 x=int(input("give number"))
 y=int(input("give another number"))
-
-gcf=gcfcalc(x,y)
-print(gcf)
+gcf=0
+def gcfcalc():
+    for i in range(1,x):
+        if x%i == 0 and y%i == 0:
+            gcf = i
+gcfcalc()
+print(gcfcalc)
 #factors=[]
 #factor.append(x)2
