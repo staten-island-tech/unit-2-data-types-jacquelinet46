@@ -6,6 +6,6 @@ def gcfcalc():
         if x%i == 0 and y%i == 0:
             gcf.append(i)
 gcfcalc()
-print(gcf)
+print(gcf[-1])
 #factors=[]
 #factor.append(x)2
